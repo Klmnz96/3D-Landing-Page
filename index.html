@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="standart.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <title>3D-Website</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">KF</div>
+        <input type="checkbox" id="menu-toggle">
+        <label class="menu-toggle" for="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button class="sign-in-btn">Sign In</button></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1>Step into the next Era of Digital Innovation</h1>
+                <p>Explore the technology that brings your boldest digital version to life</p>
+
+                <button class="cta-button">Get Started</button>
+            </div>
+
+            <div class="hero-right">
+                 <spline-viewer class="cube" url="https://prod.spline.design/NKHCQmRcVnmi7p64/scene.splinecode"></spline-viewer>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.96/build/spline-viewer.js"></script>
+   
+
+</body>
+</html>
