@@ -21,6 +21,3 @@ Features a 3D interactive model powered by Spline.
 Just open `index.html` in your browser  
 or use a local dev server (e.g. Live Server in VS Code).
 
-## Author
-
-Made by Fabian
